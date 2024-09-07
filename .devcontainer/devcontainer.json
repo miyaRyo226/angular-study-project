@@ -25,7 +25,7 @@
 		"ghcr.io/withfig/features/fig:1": {}
 	},
 	"mounts": [
-    "source=${localEnv:HOME}/.ssh,target=/$HOME/node/.ssh,type=bind,consistency=cached"
+    "source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
